@@ -1,6 +1,6 @@
 {
   "name": "@mustafau/dbservice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,18 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mustafaunal12/dbService.git"
   },
-  "keywords": ["deneme"],
+  "keywords": [
+    "deneme"
+  ],
   "author": "Mustafa",
   "license": "ISC",
   "bugs": {
